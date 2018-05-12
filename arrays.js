@@ -7,3 +7,7 @@
       array.unshift(element)
       return array
     }
+    function addElementToEndOfArray(array, element){
+      const newArray = [...array, element]
+      return newArray
+    }
