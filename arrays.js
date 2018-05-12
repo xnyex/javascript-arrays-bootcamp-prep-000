@@ -11,3 +11,7 @@
       const newArray = [...array, element]
       return newArray
     }
+    function destructivelyAddElementToEndofArray(array, element){
+      array.push(element)
+      return array
+    }
