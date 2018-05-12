@@ -3,7 +3,7 @@
       const one = [element, ...array]
       return one
     }
-    function destructivelyAddElementToBeginningOfArray (array, element){
-     const newArray = [element, ...array]
-     return newArray
+    function destructivelyAddElementToBeginningOfArray (array, element) {
+      array.unshift(element)
+      return array
     }
